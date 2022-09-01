@@ -42,28 +42,14 @@ namespace TechJobsConsole
         /**
          * Search all columns for the given term
          */
+
+        //TODO: Complete the FindByValue method
         public static List<Dictionary<string, string>> FindByValue(string value)
         {
             // load data, if not already loaded
             LoadData();
 
-            List<Dictionary<string, string>> jobs = new List<Dictionary<string, string>>();
-
-            foreach (Dictionary<string, string> row in AllJobs)
-            {
-
-                foreach (string key in row.Keys)
-                {
-                    string aValue = row[key];
-
-                    if (aValue.ToLower().Contains(value.ToLower()))
-                    {
-                        jobs.Add(row);
-                    }
-                }
-            }
-
-            return jobs;
+            return null;
         }
 
         /**
@@ -84,7 +70,9 @@ namespace TechJobsConsole
             {
                 string aValue = row[column];
 
-                if (aValue.ToLower().Contains(value.ToLower()))
+
+                //TODO: Make search case-insensitive
+                if (aValue.Contains(value))
                 {
                     jobs.Add(row);
                 }
