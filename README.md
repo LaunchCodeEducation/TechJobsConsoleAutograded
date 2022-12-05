@@ -12,7 +12,7 @@ For [this assignment](https://education.launchcode.org/csharp-web-development/as
 
 The starter code contains unit tests and text files. There is one test class that contains 4 tests. These tests compare students' output to the text files.  
 
-We encourage students to run unit tests after they complete the assignment before submitting. Directions for how to run tests have been provided in the [Java](https://education.launchcode.org/java-web-development/) textbook's [Assignment 0](https://education.launchcode.org/java-web-development/assignments/hello-world.html).
+We encourage students to run unit tests after they complete the assignment before submitting. Directions for how to run tests have been provided in the [Java](https://education.launchcode.org/java-web-development/) textbook's [Assignment 0](https://education.launchcode.org/csharp-web-development/assignments/hello-world.html).
 
 If the output matches the text files, the test will pass. If a student passes all 4 tests, they pass the assignment.  
 
@@ -117,4 +117,4 @@ Submission cannot be graded on unit tests alone. Use the section below as a guid
 
 ## Submitting Your Work
 
-To submit your work please follow the [Submission Instructions](https://education.launchcode.org/java-web-development/assignments/hello-world.html#submitting-your-work).
+To submit your work please follow the [Submission Instructions](https://education.launchcode.org/charp-web-development/assignments/hello-world.html#submitting-your-work).
