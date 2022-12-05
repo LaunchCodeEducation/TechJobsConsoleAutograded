@@ -65,8 +65,7 @@ namespace TechJobsConsole
                     // Fetch results
                     if (columnChoice.Equals("all"))
                     {
-                        //TODO: complete the PrintJobs method.
-                        PrintJobs();
+                        Console.WriteLine("Search all fields not yet implemented.");
                     }
                     else
                     {
@@ -134,6 +133,7 @@ namespace TechJobsConsole
             return choiceKeys[choiceIdx];
         }
 
+        // TODO: complete the PrintJobs method.
         public void PrintJobs(List<Dictionary<string, string>> someJobs)
         {
             Console.WriteLine("PrintJobs is not implemented yet");
